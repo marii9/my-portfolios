@@ -7,6 +7,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap" rel="stylesheet"> 
+<script src="https://kit.fontawesome.com/e7c020da95.js" crossorigin="anonymous"></script>
+
   <meta charset="UTF-8" />
 </head>
 
@@ -15,11 +17,14 @@
         <nav>
         
             
-            <ul>
+            <ul id="nav-list">
                 <li><a href="#about-me">About me</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact me</a></li>
+                <li><a id="contact-link" href="#contact">Contact me</a></li>
             </ul>
+            <button class="dropdown" id="dropdown">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
         <div class="hero-area">
             <div class="hero-text"> 
@@ -55,13 +60,15 @@
         <h3>First Project</h3>
         <p class="subtext">This is my first project </p>
         <hr/>
-        <p class="subtext"><a class="project-link" href="https://www.github.com/marii9">View</a></p>
+        <p class="subtext"><a class="project-link" href="https://github.com/Astro-Div/Astro-Music">View</a></p>
+        <img class="project1" src="images/screen-shot-frontpage (1).png" alt="application">
     </div>
     <div class="project-card">
         <h3>Second Project</h3>
-        <p class="subtext">This is my Second project</p>
+        <p class="subtext"><a class="project-link" href="https://powerful-inlet-74359.herokuapp.com/">View</a></p>
         <hr/>
-        <p class="subtext"><a class="project-link" href="https://www.github.com/marii9">View</a></p>
+        <img class="project1" src="images/Web capture_5-3-2023_203552_powerful-inlet-74359.herokuapp.com.jpeg" alt="application">
+        <p class="subtext"><a class="project-link" href="https://github.com/GarrettAnderson/gamers-gauntlet">GitHub</a>
     </div>
     </section>
     <footer id="contact"></footer>
@@ -69,6 +76,6 @@
     <p>shemarlion@gmail.com</p>
 
 
-
+    <script src="script.js"></script>
 </body>
 </html>

@@ -33,6 +33,7 @@ ul {
    font-size: 30px;
 }
 
+
 li {
     width: 200px;
     text-decoration: none;
@@ -75,7 +76,7 @@ p {
     width: 200px;
     height: 55px;
     border-radius: 30px;
-    background-color: black ;
+    background-color: black;
     text-align: center;
     font-weight: 100;
     font-size: 30px;
@@ -157,11 +158,38 @@ hr {
 
 
 .project-link {
-    decoration: none;
+    text-decoration: none;
     color: black
 }
 
 a {
     text-decoration: none;
     color: white;
+}
+
+.project1{
+    width: 300px;
+    
+}
+.dropdown{
+    display: none;
+}
+.dropdown:focus{
+outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .dropdown {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+    }
+    ul{
+        display: none;
+    }
+}
+ul.show{
+    display: block;
 }
